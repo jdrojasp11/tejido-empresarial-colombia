@@ -1,6 +1,6 @@
 table fact_financiero
 
-	measure Ingresos Totales = SUM ( fact_financiero[ingresos] )
+	measure 'Ingresos Totales' = SUM ( fact_financiero[ingresos] )
 		formatString: #,0.00
 
 	measure Utilidad = SUM ( fact_financiero[ganancia] )

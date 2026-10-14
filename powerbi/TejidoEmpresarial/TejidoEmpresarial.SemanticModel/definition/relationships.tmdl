@@ -1,16 +1,16 @@
-relationship 990ea3da-c59f-4dd8-98df-3ec99d8a2735
+relationship 4188ddd5-ad11-407d-98a9-0f211a1636cc
 	fromColumn: fact_financiero.id_empresa
 	toColumn: dim_empresa.id_empresa
 
-relationship 6a4947e1-496d-4fcd-9733-e5ba8caf859e
+relationship 4416fcc2-106d-40d6-93ae-c8d7176625b4
 	fromColumn: fact_financiero.anio
 	toColumn: dim_anio.anio
 
-relationship 79eaa050-2978-4a34-8e29-73884c3f6a50
+relationship 44421dc4-5ac2-4179-aa50-057413873637
 	fromColumn: dim_empresa.id_sector
 	toColumn: dim_sector.id_sector
 
-relationship 7341641b-2ccc-425a-ad3f-659bd07d811d
+relationship 99137d62-a929-4ef1-ba6d-1686217d61a2
 	fromColumn: dim_empresa.id_geografia
 	toColumn: dim_geografia.id_geografia
 
