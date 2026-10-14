@@ -1,0 +1,6 @@
+﻿segmento,empresas,ingresos,pct_ingresos
+1. Gigante (>= $10 billones),13,309.52,16.7
+2. Grande ($1 - $10 billones),258,543.96,29.4
+"3. Mediana-alta ($0,5 - $1)",317,219.51,11.8
+"4. Mediana ($0,1 - $0,5)",2381,472.09,25.5
+"5. Pequena (< $0,1)",7031,307.75,16.6

@@ -1,0 +1,53 @@
+table dim_empresa
+
+	column id_empresa
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_empresa
+
+	column nit
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: nit
+
+	column razon_social
+		dataType: string
+		summarizeBy: none
+		sourceColumn: razon_social
+
+	column supervisor
+		dataType: string
+		summarizeBy: none
+		sourceColumn: supervisor
+
+	column ciiu
+		dataType: string
+		summarizeBy: none
+		sourceColumn: ciiu
+
+	column id_sector
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_sector
+
+	column id_geografia
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_geografia
+
+	partition dim_empresa = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "\dim_empresa.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Limpio = Table.TransformColumnNames(Encabezados, each Text.Remove(_, {Character.FromNumber(65279)})),
+				    Tipado = Table.TransformColumnTypes(Limpio, {{"id_empresa", Int64.Type}, {"nit", Int64.Type}, {"razon_social", type text}, {"supervisor", type text}, {"ciiu", type text}, {"id_sector", Int64.Type}, {"id_geografia", Int64.Type}})
+				in
+				    Tipado
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "columnendeuda",
+  "position": {
+    "x": 20,
+    "y": 400,
+    "z": 300,
+    "height": 280,
+    "width": 610,
+    "tabOrder": 300
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_sector"
+                    }
+                  },
+                  "Property": "macrosector"
+                }
+              },
+              "queryRef": "dim_sector.macrosector",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_financiero"
+                    }
+                  },
+                  "Property": "Endeudamiento"
+                }
+              },
+              "queryRef": "fact_financiero.Endeudamiento"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

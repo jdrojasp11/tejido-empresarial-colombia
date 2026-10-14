@@ -1,0 +1,543 @@
+﻿id_geografia,region,departamento,ciudad
+1,Antioquia,Antioquia,Amaga
+2,Antioquia,Antioquia,Amagá
+3,Antioquia,Antioquia,Andes
+4,Antioquia,Antioquia,Antioquia
+5,Antioquia,Antioquia,Apartado
+6,Antioquia,Antioquia,Apartadó
+7,Antioquia,Antioquia,Arboletes
+8,Antioquia,Antioquia,Barbosa
+9,Antioquia,Antioquia,Bello
+10,Antioquia,Antioquia,Betulia
+11,Antioquia,Antioquia,Bogotá D.C.
+12,Antioquia,Antioquia,Bolivar
+13,Antioquia,Antioquia,Bolívar
+14,Antioquia,Antioquia,Buriticá
+15,Antioquia,Antioquia,Caldas
+16,Antioquia,Antioquia,Carepa
+17,Antioquia,Antioquia,Carmen De Viboral
+18,Antioquia,Antioquia,Caucasia
+19,Antioquia,Antioquia,Chigorodo
+20,Antioquia,Antioquia,Ciudad Bolivar
+21,Antioquia,Antioquia,Copacabana
+22,Antioquia,Antioquia,Dabeiba
+23,Antioquia,Antioquia,Don Matias
+24,Antioquia,Antioquia,Donmatias
+25,Antioquia,Antioquia,Donmatías
+26,Antioquia,Antioquia,El Bagre
+27,Antioquia,Antioquia,Entrerrios
+28,Antioquia,Antioquia,Entrerríos
+29,Antioquia,Antioquia,Envigado
+30,Antioquia,Antioquia,Fredonia
+31,Antioquia,Antioquia,Giraldo
+32,Antioquia,Antioquia,Giraldota
+33,Antioquia,Antioquia,Girardota
+34,Antioquia,Antioquia,Gomez Plata
+35,Antioquia,Antioquia,Guarne
+36,Antioquia,Antioquia,Itagüí
+37,Antioquia,Antioquia,Jardin
+38,Antioquia,Antioquia,Jardín
+39,Antioquia,Antioquia,Jerico
+40,Antioquia,Antioquia,La Ceja
+41,Antioquia,Antioquia,La Estrella
+42,Antioquia,Antioquia,La Union
+43,Antioquia,Antioquia,La Unión
+44,Antioquia,Antioquia,Marinilla
+45,Antioquia,Antioquia,Medellín
+46,Antioquia,Antioquia,Montebello
+47,Antioquia,Antioquia,Mosquera
+48,Antioquia,Antioquia,Mutata
+49,Antioquia,Antioquia,Necocli
+50,Antioquia,Antioquia,Puerto Berrio
+51,Antioquia,Antioquia,Puerto Berrío
+52,Antioquia,Antioquia,Puerto Nare
+53,Antioquia,Antioquia,Puerto Triunfo
+54,Antioquia,Antioquia,Remedios
+55,Antioquia,Antioquia,Retiro
+56,Antioquia,Antioquia,Rionegro
+57,Antioquia,Antioquia,Sabaneta
+58,Antioquia,Antioquia,Salgar
+59,Antioquia,Antioquia,San Pedro
+60,Antioquia,Antioquia,San Pedro De Uraba
+61,Antioquia,Antioquia,San Vicente
+62,Antioquia,Antioquia,Santa Fe De Antioquia
+63,Antioquia,Antioquia,Santa Rosa De Osos
+64,Antioquia,Antioquia,Santafe De Antioquia
+65,Antioquia,Antioquia,Santafé De Antioquia
+66,Antioquia,Antioquia,Santuario
+67,Antioquia,Antioquia,Segovia
+68,Antioquia,Antioquia,Sonson
+69,Antioquia,Antioquia,Turbo
+70,Antioquia,Antioquia,Urrao
+71,Antioquia,Antioquia,Yarumal
+72,Antioquia,Antioquia,Yolombo
+73,Antioquia,Antioquia,Yondo
+74,Antioquia,Antioquia,Yondó
+75,Antioquia,Antioquia,Zaragoza
+76,Antioquia,Atlántico,Barranquilla
+77,Antioquia,Bogotá D.C.,Bogotá D.C.
+78,Antioquia,Caldas,Anserma
+79,Antioquia,Valle del Cauca,Palmira
+80,Bogotá - Cundinamarca,Bogotá D.C.,Bogotá D.C.
+81,Bogotá - Cundinamarca,Bogotá D.C.,Cota
+82,Bogotá - Cundinamarca,Bogotá D.C.,Funza
+83,Bogotá - Cundinamarca,Casanare,Mani
+84,Bogotá - Cundinamarca,Cundinamarca,Anapoima
+85,Bogotá - Cundinamarca,Cundinamarca,Anolaima
+86,Bogotá - Cundinamarca,Cundinamarca,Bogotá D.C.
+87,Bogotá - Cundinamarca,Cundinamarca,Bojaca
+88,Bogotá - Cundinamarca,Cundinamarca,Bojacá
+89,Bogotá - Cundinamarca,Cundinamarca,Cajica
+90,Bogotá - Cundinamarca,Cundinamarca,Cajicá
+91,Bogotá - Cundinamarca,Cundinamarca,Caqueza
+92,Bogotá - Cundinamarca,Cundinamarca,Chia
+93,Bogotá - Cundinamarca,Cundinamarca,Choachí
+94,Bogotá - Cundinamarca,Cundinamarca,Choconta
+95,Bogotá - Cundinamarca,Cundinamarca,Chía
+96,Bogotá - Cundinamarca,Cundinamarca,Cogua
+97,Bogotá - Cundinamarca,Cundinamarca,Cota
+98,Bogotá - Cundinamarca,Cundinamarca,Cucunuba
+99,Bogotá - Cundinamarca,Cundinamarca,Cáqueza
+100,Bogotá - Cundinamarca,Cundinamarca,El Rosal
+101,Bogotá - Cundinamarca,Cundinamarca,Facatativa
+102,Bogotá - Cundinamarca,Cundinamarca,Facatativá
+103,Bogotá - Cundinamarca,Cundinamarca,Fomeque
+104,Bogotá - Cundinamarca,Cundinamarca,Fosca
+105,Bogotá - Cundinamarca,Cundinamarca,Funza
+106,Bogotá - Cundinamarca,Cundinamarca,Fuquene
+107,Bogotá - Cundinamarca,Cundinamarca,Fusagasuga
+108,Bogotá - Cundinamarca,Cundinamarca,Fusagasugá
+109,Bogotá - Cundinamarca,Cundinamarca,Fómeque
+110,Bogotá - Cundinamarca,Cundinamarca,Fúquene
+111,Bogotá - Cundinamarca,Cundinamarca,Gachancipa
+112,Bogotá - Cundinamarca,Cundinamarca,Gachancipá
+113,Bogotá - Cundinamarca,Cundinamarca,Gacheta
+114,Bogotá - Cundinamarca,Cundinamarca,Girardot
+115,Bogotá - Cundinamarca,Cundinamarca,Granada
+116,Bogotá - Cundinamarca,Cundinamarca,Guacheta
+117,Bogotá - Cundinamarca,Cundinamarca,Guasca
+118,Bogotá - Cundinamarca,Cundinamarca,La Calera
+119,Bogotá - Cundinamarca,Cundinamarca,La Mesa
+120,Bogotá - Cundinamarca,Cundinamarca,La Tebaida
+121,Bogotá - Cundinamarca,Cundinamarca,La Vega
+122,Bogotá - Cundinamarca,Cundinamarca,Madrid
+123,Bogotá - Cundinamarca,Cundinamarca,Mosquera
+124,Bogotá - Cundinamarca,Cundinamarca,Nemocon
+125,Bogotá - Cundinamarca,Cundinamarca,Nemocón
+126,Bogotá - Cundinamarca,Cundinamarca,Pacho
+127,Bogotá - Cundinamarca,Cundinamarca,Sesquile
+128,Bogotá - Cundinamarca,Cundinamarca,Sesquilé
+129,Bogotá - Cundinamarca,Cundinamarca,Sibate
+130,Bogotá - Cundinamarca,Cundinamarca,Sibaté
+131,Bogotá - Cundinamarca,Cundinamarca,Silvania
+132,Bogotá - Cundinamarca,Cundinamarca,Simijaca
+133,Bogotá - Cundinamarca,Cundinamarca,Soacha
+134,Bogotá - Cundinamarca,Cundinamarca,Sopo
+135,Bogotá - Cundinamarca,Cundinamarca,Sopó
+136,Bogotá - Cundinamarca,Cundinamarca,Subachoque
+137,Bogotá - Cundinamarca,Cundinamarca,Suesca
+138,Bogotá - Cundinamarca,Cundinamarca,Tabio
+139,Bogotá - Cundinamarca,Cundinamarca,Tenjo
+140,Bogotá - Cundinamarca,Cundinamarca,Tocaima
+141,Bogotá - Cundinamarca,Cundinamarca,Tocancipa
+142,Bogotá - Cundinamarca,Cundinamarca,Tocancipá
+143,Bogotá - Cundinamarca,Cundinamarca,Ubaté
+144,Bogotá - Cundinamarca,Cundinamarca,Villa De San Diego De Ubate
+145,Bogotá - Cundinamarca,Cundinamarca,Villa De San Diego De Villa De San Diego De Ubate
+146,Bogotá - Cundinamarca,Cundinamarca,Villapinzon
+147,Bogotá - Cundinamarca,Cundinamarca,Villapinzón
+148,Bogotá - Cundinamarca,Cundinamarca,Villeta
+149,Bogotá - Cundinamarca,Cundinamarca,Zipaquira
+150,Bogotá - Cundinamarca,Cundinamarca,Zipaquirá
+151,Bogotá - Cundinamarca,Meta,Villavicencio
+152,Bogotá - Cundinamarca,Norte de Santander,Cúcuta
+153,Bogotá - Cundinamarca,Santander,Floridablanca
+154,Centro - Oriente,Antioquia,Copacabana
+155,Centro - Oriente,Boyacá,Almeida
+156,Centro - Oriente,Boyacá,Belen
+157,Centro - Oriente,Boyacá,Belén
+158,Centro - Oriente,Boyacá,Berbeo
+159,Centro - Oriente,Boyacá,Chiquinquira
+160,Centro - Oriente,Boyacá,Chiquinquirá
+161,Centro - Oriente,Boyacá,Combita
+162,Centro - Oriente,Boyacá,Corrales
+163,Centro - Oriente,Boyacá,Cómbita
+164,Centro - Oriente,Boyacá,Duitama
+165,Centro - Oriente,Boyacá,Firavitoba
+166,Centro - Oriente,Boyacá,Guateque
+167,Centro - Oriente,Boyacá,Moniquira
+168,Centro - Oriente,Boyacá,Nobsa
+169,Centro - Oriente,Boyacá,Paipa
+170,Centro - Oriente,Boyacá,Paz De Rio
+171,Centro - Oriente,Boyacá,Pesca
+172,Centro - Oriente,Boyacá,Puerto
+173,Centro - Oriente,Boyacá,Puerto Boyaca
+174,Centro - Oriente,Boyacá,Puerto Boyacá
+175,Centro - Oriente,Boyacá,Samaca
+176,Centro - Oriente,Boyacá,Samacá
+177,Centro - Oriente,Boyacá,Soata
+178,Centro - Oriente,Boyacá,Socha
+179,Centro - Oriente,Boyacá,Sogamoso
+180,Centro - Oriente,Boyacá,Soraca
+181,Centro - Oriente,Boyacá,Soracá
+182,Centro - Oriente,Boyacá,Sáchica
+183,Centro - Oriente,Boyacá,Tunja
+184,Centro - Oriente,Boyacá,Ventaquemada
+185,Centro - Oriente,Norte de Santander,Abrego
+186,Centro - Oriente,Norte de Santander,Bochalema
+187,Centro - Oriente,Norte de Santander,Bucaramanga
+188,Centro - Oriente,Norte de Santander,Bucarasica
+189,Centro - Oriente,Norte de Santander,Cucutilla
+190,Centro - Oriente,Norte de Santander,Cúcuta
+191,Centro - Oriente,Norte de Santander,El Zulia
+192,Centro - Oriente,Norte de Santander,Los Patios
+193,Centro - Oriente,Norte de Santander,Ocaña
+194,Centro - Oriente,Norte de Santander,Pamplona
+195,Centro - Oriente,Norte de Santander,San Cayetano
+196,Centro - Oriente,Norte de Santander,Sardinata
+197,Centro - Oriente,Norte de Santander,Tibu
+198,Centro - Oriente,Norte de Santander,Tibú
+199,Centro - Oriente,Norte de Santander,Villa Del Rosario
+200,Centro - Oriente,Norte de Santander,Villa Rosario
+201,Centro - Oriente,Santander,Aratoca
+202,Centro - Oriente,Santander,Barrancabermeja
+203,Centro - Oriente,Santander,Bucaramanga
+204,Centro - Oriente,Santander,Bucarasica
+205,Centro - Oriente,Santander,Cimitarra
+206,Centro - Oriente,Santander,Cúcuta
+207,Centro - Oriente,Santander,Floridablanca
+208,Centro - Oriente,Santander,Giron
+209,Centro - Oriente,Santander,Girón
+210,Centro - Oriente,Santander,Lebrija
+211,Centro - Oriente,Santander,Malaga
+212,Centro - Oriente,Santander,Mogotes
+213,Centro - Oriente,Santander,Málaga
+214,Centro - Oriente,Santander,Ocaña
+215,Centro - Oriente,Santander,Piedecuesta
+216,Centro - Oriente,Santander,Puerto Wilches
+217,Centro - Oriente,Santander,Sabana De Torres
+218,Centro - Oriente,Santander,San Gil
+219,Centro - Oriente,Santander,Socorro
+220,Centro - Oriente,Santander,Velez
+221,Centro - Oriente,Santander,Zapatoca
+222,Centro - Sur,Amazonas,Leticia
+223,Centro - Sur,Caquetá,El Paujil
+224,Centro - Sur,Caquetá,Florencia
+225,Centro - Sur,Caquetá,San Vicente Del Caguán
+226,Centro - Sur,Huila,Aipe
+227,Centro - Sur,Huila,Campoalegre
+228,Centro - Sur,Huila,Garzón
+229,Centro - Sur,Huila,Gigante
+230,Centro - Sur,Huila,La Plata
+231,Centro - Sur,Huila,Neiva
+232,Centro - Sur,Huila,Palermo
+233,Centro - Sur,Huila,Pitalito
+234,Centro - Sur,Huila,Rivera
+235,Centro - Sur,Huila,Tello
+236,Centro - Sur,Huila,Tesalia
+237,Centro - Sur,Putumayo,Mocoa
+238,Centro - Sur,Putumayo,Orito
+239,Centro - Sur,Putumayo,Puerto Asís
+240,Centro - Sur,Putumayo,Puerto Leguízamo
+241,Centro - Sur,Tolima,Alvarado
+242,Centro - Sur,Tolima,Chaparral
+243,Centro - Sur,Tolima,Cunday
+244,Centro - Sur,Tolima,El Espinal
+245,Centro - Sur,Tolima,El Guamo
+246,Centro - Sur,Tolima,Flandes
+247,Centro - Sur,Tolima,Ibagué
+248,Costa Pacífica,Bogotá D.C.,Bogotá D.C.
+249,Costa Pacífica,Cauca,Bolivar
+250,Costa Pacífica,Cauca,Caloto
+251,Costa Pacífica,Cauca,Guachene
+252,Costa Pacífica,Cauca,Guachené
+253,Costa Pacífica,Cauca,La Vega
+254,Costa Pacífica,Cauca,Miranda
+255,Costa Pacífica,Cauca,Paez
+256,Costa Pacífica,Cauca,Piendamo
+257,Costa Pacífica,Cauca,Popayán
+258,Costa Pacífica,Cauca,Puerto Tejada
+259,Costa Pacífica,Cauca,Santander De Quilichao
+260,Costa Pacífica,Cauca,Villa Rica
+261,Costa Pacífica,Chocó,Itsmina
+262,Costa Pacífica,Chocó,Quibdo
+263,Costa Pacífica,Chocó,Quibdó
+264,Costa Pacífica,Nariño,Alban
+265,Costa Pacífica,Nariño,Buesaco
+266,Costa Pacífica,Nariño,Chachagüí
+267,Costa Pacífica,Nariño,Ipiales
+268,Costa Pacífica,Nariño,La Union
+269,Costa Pacífica,Nariño,La Unión
+270,Costa Pacífica,Nariño,Palmira
+271,Costa Pacífica,Nariño,Pasto
+272,Costa Pacífica,Nariño,San Andres De Tumaco
+273,Costa Pacífica,Nariño,Tumaco
+274,Costa Pacífica,Nariño,Tuquerres
+275,Costa Pacífica,Nariño,Yacuanquer
+276,Costa Pacífica,Valle del Cauca,Andalucía
+277,Costa Pacífica,Valle del Cauca,Anserma
+278,Costa Pacífica,Valle del Cauca,Ansermanuevo
+279,Costa Pacífica,Valle del Cauca,Buenaventura
+280,Costa Pacífica,Valle del Cauca,Buga
+281,Costa Pacífica,Valle del Cauca,Bugalagrande
+282,Costa Pacífica,Valle del Cauca,Caicedonia
+283,Costa Pacífica,Valle del Cauca,Cali
+284,Costa Pacífica,Valle del Cauca,Calima
+285,Costa Pacífica,Valle del Cauca,Candelaria
+286,Costa Pacífica,Valle del Cauca,Cartago
+287,Costa Pacífica,Valle del Cauca,El Cerrito
+288,Costa Pacífica,Valle del Cauca,Florida
+289,Costa Pacífica,Valle del Cauca,Ginebra
+290,Costa Pacífica,Valle del Cauca,Guacari
+291,Costa Pacífica,Valle del Cauca,Guadalajara De Buga
+292,Costa Pacífica,Valle del Cauca,Jamundi
+293,Costa Pacífica,Valle del Cauca,Jamundí
+294,Costa Pacífica,Valle del Cauca,La Union
+295,Costa Pacífica,Valle del Cauca,La Unión
+296,Costa Pacífica,Valle del Cauca,La Victoria
+297,Costa Pacífica,Valle del Cauca,Palmira
+298,Costa Pacífica,Valle del Cauca,Pradera
+299,Costa Pacífica,Valle del Cauca,Restrepo
+300,Costa Pacífica,Valle del Cauca,Riofrio
+301,Costa Pacífica,Valle del Cauca,Riofrío
+302,Costa Pacífica,Valle del Cauca,Roldanillo
+303,Costa Pacífica,Valle del Cauca,San Pedro
+304,Costa Pacífica,Valle del Cauca,Sevilla
+305,Costa Pacífica,Valle del Cauca,Tulua
+306,Costa Pacífica,Valle del Cauca,Tuluá
+307,Costa Pacífica,Valle del Cauca,Vijes
+308,Costa Pacífica,Valle del Cauca,Yotoco
+309,Costa Pacífica,Valle del Cauca,Yumbo
+310,Costa Pacífica,Valle del Cauca,Zarzal
+311,Eje Cafetero,Antioquia,Medellín
+312,Eje Cafetero,Bogotá D.C.,Bogotá D.C.
+313,Eje Cafetero,Caldas,Anserma
+314,Eje Cafetero,Caldas,Chinchina
+315,Eje Cafetero,Caldas,La Dorada
+316,Eje Cafetero,Caldas,Manizales
+317,Eje Cafetero,Caldas,Riosucio
+318,Eje Cafetero,Caldas,Villamaria
+319,Eje Cafetero,Caldas,Villamaría
+320,Eje Cafetero,Quindío,Armenia
+321,Eje Cafetero,Quindío,Calarca
+322,Eje Cafetero,Quindío,Calarcá
+323,Eje Cafetero,Quindío,Circasia
+324,Eje Cafetero,Quindío,La Tebaida
+325,Eje Cafetero,Quindío,Montenegro
+326,Eje Cafetero,Quindío,Quimbaya
+327,Eje Cafetero,Quindío,Salento
+328,Eje Cafetero,Risaralda,Dos Quebradas
+329,Eje Cafetero,Risaralda,Dosquebradas
+330,Eje Cafetero,Risaralda,Guatica
+331,Eje Cafetero,Risaralda,Guática
+332,Eje Cafetero,Risaralda,La Virginia
+333,Eje Cafetero,Risaralda,Mistrato
+334,Eje Cafetero,Risaralda,Pereira
+335,Eje Cafetero,Risaralda,Santa Rosa De Cabal
+336,Eje Cafetero,Risaralda,Santuario
+337,Eje Cafetero,Risaralda,Satuario
+338,Llanos,Arauca,Arauca
+339,Llanos,Arauca,Arauquita
+340,Llanos,Arauca,Fortul
+341,Llanos,Arauca,Saravena
+342,Llanos,Arauca,Tame
+343,Llanos,Casanare,Aguazul
+344,Llanos,Casanare,Maní
+345,Llanos,Casanare,Monterrey
+346,Llanos,Casanare,Nunchía
+347,Llanos,Casanare,Paz De Ariporo
+348,Llanos,Casanare,Tauramena
+349,Llanos,Casanare,Villanueva
+350,Llanos,Casanare,Yopal
+351,Llanos,Guaviare,San José Del Guaviare
+352,Llanos,Meta,Acacías
+353,Llanos,Meta,Cabuyaro
+354,Llanos,Meta,Cumaral
+355,Llanos,Meta,Granada
+356,Llanos,Meta,Guamal
+357,Llanos,Meta,Puerto Concordia
+358,Llanos,Meta,Puerto Gaitán
+359,Llanos,Meta,Puerto López
+360,Llanos,Meta,Puerto Rico
+361,Llanos,Meta,Villavicencio
+362,Llanos,Vaupés,Mitú Vaupes
+363,Llanos,Vichada,Puerto Carreño
+364,Llanos,Vichada,Santa Rosalía
+365,Otros,Amazonas,Leticia
+366,Otros,Arauca,Arauca
+367,Otros,Arauca,Fortul
+368,Otros,Arauca,Saravena
+369,Otros,Arauca,Tame
+370,Otros,Bogotá D.C.,Bogotá D.C.
+371,Otros,Caquetá,El Doncello
+372,Otros,Caquetá,El Paujil
+373,Otros,Caquetá,Florencia
+374,Otros,Caquetá,San Vicente Del Caguan
+375,Otros,Casanare,Aguazul
+376,Otros,Casanare,Mani
+377,Otros,Casanare,Monterrey
+378,Otros,Casanare,Paz De Ariporo
+379,Otros,Casanare,Tauramena
+380,Otros,Casanare,Villanueva
+381,Otros,Casanare,Yopal
+382,Otros,Cesar,Aguachica
+383,Otros,Cesar,Bosconia
+384,Otros,Cesar,La Gloria
+385,Otros,Cesar,Riohacha
+386,Otros,Cesar,San Alberto
+387,Otros,Cesar,San Martín
+388,Otros,Cesar,Valledupar
+389,Otros,Chocó,Quibdo
+390,Otros,Córdoba,Cordoba
+391,Otros,Guainía,Inirida Guainia
+392,Otros,Guaviare,San Jose Del Guaviare
+393,Otros,Huila,Campo Alegre
+394,Otros,Huila,Campoalegre
+395,Otros,Huila,Garzon
+396,Otros,Huila,Garzón
+397,Otros,Huila,Gigante
+398,Otros,Huila,La Plata
+399,Otros,Huila,Neiva
+400,Otros,Huila,Palermo
+401,Otros,Huila,Pital
+402,Otros,Huila,Pitalito
+403,Otros,Huila,Rivera
+404,Otros,Huila,Tello
+405,Otros,La Guajira,Albania
+406,Otros,La Guajira,Distraccion
+407,Otros,La Guajira,Maicao
+408,Otros,La Guajira,Riohacha
+409,Otros,La Guajira,San Juan Del Cesar
+410,Otros,La Guajira,Uribia
+411,Otros,Meta,Acacias
+412,Otros,Meta,Granada
+413,Otros,Meta,Guamal
+414,Otros,Meta,Puerto Gaitan
+415,Otros,Meta,Puerto Gaitan (Manacacias)
+416,Otros,Meta,Puerto Gaitán
+417,Otros,Meta,Puerto Lopez
+418,Otros,Meta,Restrepo
+419,Otros,Meta,Villavicencio
+420,Otros,Putumayo,Colon
+421,Otros,Putumayo,Mocoa
+422,Otros,Putumayo,Orito
+423,Otros,Putumayo,Puerto Asis
+424,Otros,Putumayo,Valle Del Guamuez
+425,Otros,Quindío,Armenia
+426,Otros,San Andrés y Providencia,San Andres
+427,Otros,Tolima,Alvarado
+428,Otros,Tolima,Armero
+429,Otros,Tolima,Chaparral
+430,Otros,Tolima,Dolores
+431,Otros,Tolima,Espinal
+432,Otros,Tolima,Flandes
+433,Otros,Tolima,Guamo
+434,Otros,Tolima,Herveo
+435,Otros,Tolima,Honda
+436,Otros,Tolima,Ibagué
+437,Otros,Tolima,Lerida
+438,Otros,Tolima,Libano
+439,Otros,Tolima,Mariquita
+440,Otros,Tolima,Melgar
+441,Otros,Tolima,Purificacion
+442,Otros,Tolima,Saldana
+443,Otros,Vaupés,Mitu Vaupes
+444,Otros,Vaupés,Mitú Vaupes
+445,Otros,Vichada,Puerto Carreño
+446,Otros,Vichada,Santa Rosalia
+447,Región Caribe,Atlántico,Arjona
+448,Región Caribe,Atlántico,Baranoa
+449,Región Caribe,Atlántico,Barranquilla
+450,Región Caribe,Atlántico,Campo De La Cruz
+451,Región Caribe,Atlántico,Galapa
+452,Región Caribe,Atlántico,Luruaco
+453,Región Caribe,Atlántico,Malambo
+454,Región Caribe,Atlántico,Puerto Colombia
+455,Región Caribe,Atlántico,Sabanagrande
+456,Región Caribe,Atlántico,Sabanalarga
+457,Región Caribe,Atlántico,Santo Tomas
+458,Región Caribe,Atlántico,Santo Tomás
+459,Región Caribe,Atlántico,Soledad
+460,Región Caribe,Bogotá D.C.,Bogotá D.C.
+461,Región Caribe,Bolívar,Altos Del Rosario
+462,Región Caribe,Bolívar,Arjona
+463,Región Caribe,Bolívar,Barranquilla
+464,Región Caribe,Bolívar,Calamar
+465,Región Caribe,Bolívar,Cartagena
+466,Región Caribe,Bolívar,Cicuco
+467,Región Caribe,Bolívar,Clemencia
+468,Región Caribe,Bolívar,El Carmen De Bolivar
+469,Región Caribe,Bolívar,Magangue
+470,Región Caribe,Bolívar,Magangué
+471,Región Caribe,Bolívar,Maria La Baja
+472,Región Caribe,Bolívar,María La Baja
+473,Región Caribe,Bolívar,San Juan Nepomuceno
+474,Región Caribe,Bolívar,San Pablo
+475,Región Caribe,Bolívar,Santa Rosa
+476,Región Caribe,Bolívar,Santa Rosa Del Sur
+477,Región Caribe,Bolívar,Simiti
+478,Región Caribe,Bolívar,Turbaco
+479,Región Caribe,Bolívar,Turbana
+480,Región Caribe,Bolívar,Turbaná
+481,Región Caribe,Cesar,Aguachica
+482,Región Caribe,Cesar,Bosconia
+483,Región Caribe,Cesar,Chiriguana
+484,Región Caribe,Cesar,La Gloria
+485,Región Caribe,Cesar,La Paz
+486,Región Caribe,Cesar,La Paz (Robles)
+487,Región Caribe,Cesar,San Alberto
+488,Región Caribe,Cesar,San Martin
+489,Región Caribe,Cesar,San Martín
+490,Región Caribe,Cesar,Valledupar
+491,Región Caribe,Cundinamarca,Mosquera
+492,Región Caribe,Córdoba,Buenavista
+493,Región Caribe,Córdoba,Cerete
+494,Región Caribe,Córdoba,Cereté
+495,Región Caribe,Córdoba,Cienaga De Oro
+496,Región Caribe,Córdoba,Ciénaga De Oro
+497,Región Caribe,Córdoba,Lorica
+498,Región Caribe,Córdoba,Los Córdobas
+499,Región Caribe,Córdoba,Montelibano
+500,Región Caribe,Córdoba,Montería
+501,Región Caribe,Córdoba,Planeta Rica
+502,Región Caribe,Córdoba,Sahagun
+503,Región Caribe,Córdoba,Sahagún
+504,Región Caribe,Córdoba,Tierralta
+505,Región Caribe,La Guajira,Albania
+506,Región Caribe,La Guajira,Barrancas
+507,Región Caribe,La Guajira,Distraccion
+508,Región Caribe,La Guajira,Distracción
+509,Región Caribe,La Guajira,Fonseca
+510,Región Caribe,La Guajira,Maicao
+511,Región Caribe,La Guajira,Maicao Guajira
+512,Región Caribe,La Guajira,Manaure
+513,Región Caribe,La Guajira,Riohacha
+514,Región Caribe,La Guajira,San Juan Del Cesar
+515,Región Caribe,La Guajira,Uribia
+516,Región Caribe,Magdalena,Cienaga
+517,Región Caribe,Magdalena,Ciénaga
+518,Región Caribe,Magdalena,El Banco
+519,Región Caribe,Magdalena,Fundacion
+520,Región Caribe,Magdalena,Fundación
+521,Región Caribe,Magdalena,Guamal
+522,Región Caribe,Magdalena,Medellín
+523,Región Caribe,Magdalena,Pivijay
+524,Región Caribe,Magdalena,Plato
+525,Región Caribe,Magdalena,San Sebastian De Buenavismagdalena
+526,Región Caribe,Magdalena,San Sebastian De Buenavista
+527,Región Caribe,Magdalena,San Sebastián De Buenavista
+528,Región Caribe,Magdalena,Santa Ana
+529,Región Caribe,Magdalena,Santa Marta
+530,Región Caribe,Magdalena,Sitionuevo
+531,Región Caribe,San Andrés y Providencia,Barranquilla
+532,Región Caribe,San Andrés y Providencia,San Andres
+533,Región Caribe,San Andrés y Providencia,San Andres Y Providencia
+534,Región Caribe,San Andrés y Providencia,San Andrés
+535,Región Caribe,Sucre,Corozal
+536,Región Caribe,Sucre,Guaranda
+537,Región Caribe,Sucre,San Marcos
+538,Región Caribe,Sucre,Since
+539,Región Caribe,Sucre,Sincelejo
+540,Región Caribe,Sucre,Sucre
+541,Región Caribe,Sucre,Tolu
+542,Región Caribe,Sucre,Toluviejo

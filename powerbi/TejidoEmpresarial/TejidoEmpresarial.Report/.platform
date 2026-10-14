@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TejidoEmpresarial"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d6df4d68-e9bc-42cb-9a57-77a8020d3a05"
+  }
+}

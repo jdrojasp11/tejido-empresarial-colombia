@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "cardempresas",
+  "position": {
+    "x": 935,
+    "y": 90,
+    "z": 200,
+    "height": 130,
+    "width": 325,
+    "tabOrder": 200
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_financiero"
+                    }
+                  },
+                  "Property": "NumEmpresas"
+                }
+              },
+              "queryRef": "fact_financiero.NumEmpresas"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

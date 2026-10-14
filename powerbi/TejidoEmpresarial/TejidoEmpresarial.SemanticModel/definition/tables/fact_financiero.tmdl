@@ -1,0 +1,80 @@
+table fact_financiero
+
+	measure Ingresos = SUM ( fact_financiero[ingresos] )
+		formatString: #,0.00
+
+	measure Utilidad = SUM ( fact_financiero[ganancia] )
+		formatString: #,0.00
+
+	measure Margen = DIVIDE ( [Utilidad], [Ingresos] )
+		formatString: 0.0%
+
+	measure ROA = DIVIDE ( [Utilidad], SUM ( fact_financiero[activos] ) )
+		formatString: 0.0%
+
+	measure Endeudamiento = DIVIDE ( SUM ( fact_financiero[pasivos] ), SUM ( fact_financiero[activos] ) )
+		formatString: 0.0%
+
+	measure NumEmpresas = DISTINCTCOUNT ( fact_financiero[id_empresa] )
+		formatString: #,0
+
+	column id_registro
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_registro
+
+	column id_empresa
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_empresa
+
+	column anio
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: anio
+
+	column ingresos
+		dataType: double
+		formatString: #,0.00
+		summarizeBy: none
+		sourceColumn: ingresos
+
+	column ganancia
+		dataType: double
+		formatString: #,0.00
+		summarizeBy: none
+		sourceColumn: ganancia
+
+	column activos
+		dataType: double
+		formatString: #,0.00
+		summarizeBy: none
+		sourceColumn: activos
+
+	column pasivos
+		dataType: double
+		formatString: #,0.00
+		summarizeBy: none
+		sourceColumn: pasivos
+
+	column patrimonio
+		dataType: double
+		formatString: #,0.00
+		summarizeBy: none
+		sourceColumn: patrimonio
+
+	partition fact_financiero = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "\fact_financiero.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Limpio = Table.TransformColumnNames(Encabezados, each Text.Remove(_, {Character.FromNumber(65279)})),
+				    Tipado = Table.TransformColumnTypes(Limpio, {{"id_registro", Int64.Type}, {"id_empresa", Int64.Type}, {"anio", Int64.Type}, {"ingresos", type number}, {"ganancia", type number}, {"activos", type number}, {"pasivos", type number}, {"patrimonio", type number}})
+				in
+				    Tipado
+
+	annotation PBI_ResultType = Table

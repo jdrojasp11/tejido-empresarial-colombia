@@ -1,0 +1,16 @@
+relationship c9a9c2d0-e3e4-4b46-ae0d-3fa3ea9e41de
+	fromColumn: fact_financiero.id_empresa
+	toColumn: dim_empresa.id_empresa
+
+relationship 82ddc941-b2e9-44a4-af14-d267b2fecc00
+	fromColumn: fact_financiero.anio
+	toColumn: dim_anio.anio
+
+relationship 9ee78e0f-b1cf-4240-b984-7c45bdd77ab6
+	fromColumn: dim_empresa.id_sector
+	toColumn: dim_sector.id_sector
+
+relationship 88076f69-0aa5-4cc3-bd9b-d5a500663d97
+	fromColumn: dim_empresa.id_geografia
+	toColumn: dim_geografia.id_geografia
+

@@ -1,0 +1,25 @@
+table dim_sector
+
+	column id_sector
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_sector
+
+	column macrosector
+		dataType: string
+		summarizeBy: none
+		sourceColumn: macrosector
+
+	partition dim_sector = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "\dim_sector.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Limpio = Table.TransformColumnNames(Encabezados, each Text.Remove(_, {Character.FromNumber(65279)})),
+				    Tipado = Table.TransformColumnTypes(Limpio, {{"id_sector", Int64.Type}, {"macrosector", type text}})
+				in
+				    Tipado
+
+	annotation PBI_ResultType = Table

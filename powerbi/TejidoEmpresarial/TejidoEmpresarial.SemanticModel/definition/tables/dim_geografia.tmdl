@@ -1,0 +1,35 @@
+table dim_geografia
+
+	column id_geografia
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: id_geografia
+
+	column region
+		dataType: string
+		summarizeBy: none
+		sourceColumn: region
+
+	column departamento
+		dataType: string
+		summarizeBy: none
+		sourceColumn: departamento
+
+	column ciudad
+		dataType: string
+		summarizeBy: none
+		sourceColumn: ciudad
+
+	partition dim_geografia = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "\dim_geografia.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Limpio = Table.TransformColumnNames(Encabezados, each Text.Remove(_, {Character.FromNumber(65279)})),
+				    Tipado = Table.TransformColumnTypes(Limpio, {{"id_geografia", Int64.Type}, {"region", type text}, {"departamento", type text}, {"ciudad", type text}})
+				in
+				    Tipado
+
+	annotation PBI_ResultType = Table

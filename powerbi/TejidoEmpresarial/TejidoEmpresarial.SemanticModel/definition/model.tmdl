@@ -1,0 +1,9 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+
+ref table dim_anio
+ref table dim_empresa
+ref table dim_geografia
+ref table dim_sector
+ref table fact_financiero
