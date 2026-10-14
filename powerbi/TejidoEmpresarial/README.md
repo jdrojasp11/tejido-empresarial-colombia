@@ -48,7 +48,7 @@ genero). Si clonas el repo en otra ruta:
 
 | Medida | Descripcion |
 |---|---|
-| `Ingresos` | Suma de ingresos operacionales (billones de COP) |
+| `Ingresos Totales` | Suma de ingresos operacionales (billones de COP) |
 | `Utilidad` | Suma de la ganancia (perdida) neta |
 | `Margen` | `Utilidad / Ingresos` |
 | `ROA` | `Utilidad / Activos` |

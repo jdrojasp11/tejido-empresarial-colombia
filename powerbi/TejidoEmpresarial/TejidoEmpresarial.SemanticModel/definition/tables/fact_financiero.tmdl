@@ -1,12 +1,12 @@
 table fact_financiero
 
-	measure Ingresos = SUM ( fact_financiero[ingresos] )
+	measure Ingresos Totales = SUM ( fact_financiero[ingresos] )
 		formatString: #,0.00
 
 	measure Utilidad = SUM ( fact_financiero[ganancia] )
 		formatString: #,0.00
 
-	measure Margen = DIVIDE ( [Utilidad], [Ingresos] )
+	measure Margen = DIVIDE ( [Utilidad], [Ingresos Totales] )
 		formatString: 0.0%
 
 	measure ROA = DIVIDE ( [Utilidad], SUM ( fact_financiero[activos] ) )

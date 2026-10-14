@@ -45,15 +45,15 @@ Archivos generados en `data/processed/`:
 
 ### Página 1 - Panorama general
 
-- **Tarjetas (KPI):** Ingresos, Utilidad, `Margen %`, Num Empresas.
-- **Columnas:** Ingresos por `dim_anio[anio]` (evolución 2021–2025).
-- **Barras:** Ingresos por `dim_sector[macrosector]`.
+- **Tarjetas (KPI):** `Ingresos Totales`, `Utilidad`, `Margen`, `NumEmpresas`.
+- **Columnas:** `Ingresos Totales` por `dim_anio[anio]` (evolución 2021–2025).
+- **Barras:** `Ingresos Totales` por `dim_sector[macrosector]`.
 
 ### Página 2 - Sectores y riesgo
 
-- **Barras (Top N):** Ingresos por `dim_geografia[ciudad]`.
-- **Barras:** `Margen %` por `dim_sector[macrosector]`.
-- **Barras:** `Endeudamiento %` por `dim_sector[macrosector]`.
+- **Barras (Top N):** `Ingresos Totales` por `dim_geografia[ciudad]`.
+- **Barras:** `Margen` por `dim_sector[macrosector]`.
+- **Barras:** `Endeudamiento` por `dim_sector[macrosector]`.
 - **Donut:** Num Empresas por `dim_sector[macrosector]`.
 
 ### Página 3 - Concentración (opcional)

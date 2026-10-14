@@ -41,10 +41,10 @@
                       "Entity": "fact_financiero"
                     }
                   },
-                  "Property": "Ingresos"
+                  "Property": "Ingresos Totales"
                 }
               },
-              "queryRef": "fact_financiero.Ingresos"
+              "queryRef": "fact_financiero.Ingresos Totales"
             }
           ]
         }
